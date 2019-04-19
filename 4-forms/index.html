@@ -8,45 +8,63 @@
 </head>
 <body>
     <form action="/">
-        <label>
-            Phone:
-            <input type="number" name="phone" required>
-        </label>
-        <label>
-            E-mail:
-            <input type="email" name="email" required>
-        </label>
-        <label>
-            Password:
-            <input type="password" name="password" required>
-        </label>
-        <label>
-            Confirm Password:
-            <input type="password" name="confPassword" required>
-        </label>
-        <label>
-            Nickname:
-            <input type="text" name="nickname" required>
-        </label>
-        <label>
-            Habitual Residence:
-            <select name="habRes" id="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-        </label>
-        <label>
-            Website:
-            <input type="text" placeholder="website" name="website" required>
-        </label>
-
-        <label>
-            <input type="checkbox" name="agreement" checked="checked" required>
-            I have read the <a href="https://www.google.com/">agreement</a>
-        </label>
-
-        <input type="submit" value="Register">
+        <p>
+            <label>
+                Name:
+                <input type="text" name="name" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Email:
+                <input type="email" name="email" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Password:
+                <input type="pass" name="password" required>
+            </label>
+        </p> 
+        <p>
+            <label>
+                Number:
+                <input type="number" name="number" required>
+            </label>
+        </p>  
+        <p>
+            <label>
+                Date:
+                <input type="date" name="date" required>
+            </label>
+        </p>  
+        <p>
+            <label>
+                Time:
+                <input type="time" name="time" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Color:
+                <input type="color" name="color" required>
+            </label>
+        </p>  
+        <p>
+            <label>
+                Range:
+                <input type="range" name="range" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Description:
+                <Textarea name="description" required></Textarea>
+            </label>
+        </p>   
+        <hr>
+        <input type="submit" value="Submit"> 
+        <input type="reset" value="Clear">
     </form>
 </body>
 </html>
