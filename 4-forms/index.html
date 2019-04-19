@@ -8,60 +8,47 @@
 </head>
 <body>
     <form action="/">
+        <h1>Sign in</h1>
+        <hr>
         <p>
             <label>
-                Name:
-                <input type="text" name="name" required>
+                Full Name:
+                <input type="text" name="name" placeholder="Enter Full Name" required>
             </label>
         </p>
         <p>
             <label>
-                Email:
-                <input type="email" name="email" required>
+                Email address:
+                <input type="email" name="email" placeholder="Enter email" required>
             </label>
         </p>
         <p>
+            Communication:
             <label>
-                Password:
-                <input type="pass" name="password" required>
+                <input type="checkbox" name="Communication" value="Email">
+                Email
             </label>
-        </p> 
-        <p>
             <label>
-                Number:
-                <input type="number" name="number" required>
+                <input type="checkbox" name="Communication" value="SMS">
+                SMS
             </label>
-        </p>  
-        <p>
             <label>
-                Date:
-                <input type="date" name="date" required>
-            </label>
-        </p>  
-        <p>
-            <label>
-                Time:
-                <input type="time" name="time" required>
+                <input type="checkbox" name="Communication" value="Phone">
+                Phone
             </label>
         </p>
         <p>
+            User Group:
             <label>
-                Color:
-                <input type="color" name="color" required>
+                <input type="radio" name="userGroup" value="Sales Person">
+                Sales Person
             </label>
-        </p>  
-        <p>
             <label>
-                Range:
-                <input type="range" name="range" required>
+                <input type="radio" name="userGroup" value="Customer">
+                Customer
             </label>
         </p>
-        <p>
-            <label>
-                Description:
-                <Textarea name="description" required></Textarea>
-            </label>
-        </p>   
+        
         <hr>
         <input type="submit" value="Submit"> 
         <input type="reset" value="Clear">
