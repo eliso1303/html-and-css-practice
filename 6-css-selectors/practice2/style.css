@@ -1,0 +1,21 @@
+body {
+    background:gray;
+}
+h1 {
+    color:white;
+}
+header h1, .title {
+    text-align: center;
+}
+main section a:hover {
+    color:lightblue;
+}
+section > p {
+ color:white;
+}
+#first {
+    background:yellowgreen;
+}
+#first + a {
+    background:green;
+}
