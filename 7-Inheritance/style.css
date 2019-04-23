@@ -3,6 +3,9 @@
     border-radius:5px;
     background: transparent;
     border:1px solid gray;
+    font-size:20px;
+    width:90px;
+    height:50px;
 }
 .button.primary {
     color:white;
@@ -18,4 +21,14 @@
 .button.danger {
     color:red;
     background:lightgray;
+}
+.small {
+    font-size:12px;
+    width:70px;
+    height:30px;
+}
+.large {
+    font-size:22px;
+    width:120px;
+    height:70px;
 }
