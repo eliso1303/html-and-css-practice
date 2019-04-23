@@ -1,0 +1,21 @@
+button {
+    color:black;
+    border-radius:5px;
+    background: transparent;
+    border:1px solid gray;
+}
+button.primary {
+    color:white;
+    background:blue;
+    border-radius:10px;
+}
+button.default {
+    border:1px solid gray;
+}
+button.dashed {
+    border:1px dashed gray;
+}
+button.danger {
+    color:red;
+    background:lightgray;
+}
