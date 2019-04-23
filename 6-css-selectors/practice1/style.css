@@ -1,0 +1,24 @@
+body {
+    background:black;
+}
+h1 {
+    color:white;
+}
+header h1, .title {
+    text-align: center;
+}
+main section a:hover {
+    color:lightblue;
+}
+a > img {
+ border:1px solid red;
+}
+a img:first-child {
+    border:1px solid green;
+}
+#first {
+    background:yellowgreen;
+}
+#first + section {
+    background:green;
+}
