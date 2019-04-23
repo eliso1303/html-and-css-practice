@@ -1,0 +1,19 @@
+.item {
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin:10px;
+}
+.item img {
+    width:200px;
+}
+.item div {
+    padding: 0px 20px;
+}
+.item div h2 {
+    font-size:18px;
+}
+.item div p a {
+    font-size:16px;
+    color:gray;
+    text-decoration: none;
+}
