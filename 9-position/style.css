@@ -3,6 +3,7 @@ body {
     background-size:100%;
     margin:0px;
     padding:0px;
+    overflow: hidden;
 }
 .bg {
     position:absolute;
@@ -10,44 +11,63 @@ body {
     width:100%;
     height:100vh;
 }
-.modal {
-    width:500px;
-    background:#fff;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-}
-.modalHead, .modalContent {
-    border-bottom:1px solid gray;
-}
-.modalHead h2, .modalContent p {
-    padding-left:15px;
-}
-.modalHead a {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    text-decoration: none;
-    color:gray;
-}
-.modalFooter {
-    padding:30px;
+.bg h1 {
+    color: #fff;
+    font-size: 50px;
     position: relative;
+    z-index: 2;
 }
-.modalButtons {
-    position:absolute;
-    right:15px;
-    top: 15px;
+.bg h1 span {
+    color:#000;
 }
-.modalButtons div {
+.headerBg {
+    width: 74px;
+    height: 49px;
+    left: -14px;
+    top: 5px;
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+}
+.right, .left {
+    
+    font-size:40px;
+    font-weight: bold;
+    background:#fff;
+    color:#000;
     display: inline-block;
-    padding:5px 10px;
-    border: 1px solid gray;
-    border-radius:5px;
+    position: absolute;
+    transform: translateY(-50%);
+    top:50%;
 }
-.ok {
-    background:blue;
-    border:none;
-    color:#fff;
+.right a, .left a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px;
+}
+.right {
+    right:30px;
+}
+.left {
+    left:30px;    
+}
+.bg p {
+    color: #fff;
+    font-size: 29px;
+    width: 366px;
+}
+.content {
+    position: relative;
+    top: 17%;
+    left: 9%;
+}
+.sport {
+    position: absolute;
+    bottom: 30px;
+    background: #dc580b;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 }
