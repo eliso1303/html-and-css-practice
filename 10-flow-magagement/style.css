@@ -5,37 +5,37 @@ main {
 .clearfix {
     clear:both;
 }
-.top, .bottom {
-    clear:both;
+.top .left, .middle .right {
+    background:green;
 }
-.left, .middle, .right {
+.top .right, .middle .left, .bottom .right > div:first-child {
+    background:yellow;
+}
+.left, .right {
+    width:50%;
+    height:100px;
     float:left;
 }
-.top .left div {
-    min-height:50px;
-    border:1px solid gray;
-    width:70px;
+.bottom .left div {
+    height:100px;
 }
-.top .right {
-    width:324px;
+.bottom .left div:first-child {
     background:red;
-    min-height:102px;
-    border:1px solid gray;
+    width:30%;
+    float:left;
 }
-.bottom .left, .bottom .middle, .bottom .right {
-    min-height:70px;
-    border:1px solid gray;
-} 
-.bottom .left {
-    background:blue;
-    width:70px;
+.bottom .left div:nth-child(2) {
+    background:lightblue;
+    width:70%;
+    float:right;
 }
-.bottom .middle {
-    width:220px;
+.bottom .right > div {
+    width:50%;
+    height:100px;
+    background:red;
+    float:left;
 }
-.bottom .right div {
-    min-height:33px;
-    width:99px;
-    color:yellow;
-    border:1px solid gray;
+.bottom .right > div > div:first-child {
+    height: 70px;
+    background: aqua;
 }
