@@ -1,0 +1,41 @@
+main {
+    width:400px;
+    margin:auto;
+}
+.clearfix {
+    clear:both;
+}
+.top, .bottom {
+    clear:both;
+}
+.left, .middle, .right {
+    float:left;
+}
+.top .left div {
+    min-height:50px;
+    border:1px solid gray;
+    width:70px;
+}
+.top .right {
+    width:324px;
+    background:red;
+    min-height:102px;
+    border:1px solid gray;
+}
+.bottom .left, .bottom .middle, .bottom .right {
+    min-height:70px;
+    border:1px solid gray;
+} 
+.bottom .left {
+    background:blue;
+    width:70px;
+}
+.bottom .middle {
+    width:220px;
+}
+.bottom .right div {
+    min-height:33px;
+    width:99px;
+    color:yellow;
+    border:1px solid gray;
+}
