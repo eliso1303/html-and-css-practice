@@ -13,41 +13,19 @@
 .red {
     background:red;
 }
-.lightblue {
-    background:lightblue;
-}
-.col {
-    display: flex;
-    flex-grow:1;
-    flex-direction: column;
+.lightgreen {
+    background:lightgreen;
 }
 .cell {
-    height:50px;
+    height:100px;
 }
 .col-1 {
     flex-grow: 1;
 }
-.col-3 {
-    flex-grow: 3;
-}
-.left {
-    flex-grow: 1;
-}
-.right {
-    flex-grow: 3;
-}
-.top .col div:nth-child(2) {
-    height:150px;
-}
-.bottom .right > div:first-child, .bottom .left {
-    height:100px;
-}
-.bottom .right {
+.wrapper .row:nth-child(3) > div:nth-child(3) {
     display: flex;
+    flex-direction: column;
 }
-.bottom .right div:first-child {
-    flex-grow:3;
-}
-.bottom .right div:nth-child(2){
-    flex-grow:1;
+.wrapper .row:nth-child(3) > div:nth-child(3) > div {
+    height:50px;
 }
