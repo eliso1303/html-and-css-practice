@@ -1,8 +1,7 @@
-.wrapper {
+.wrapper, .bottom {
     width:600px;
     margin:auto;
     display: flex;
-    flex-direction: column;
 }
 .row {
     display: flex;
@@ -17,15 +16,19 @@
     background:lightgreen;
 }
 .cell {
-    height:100px;
+    height:150px;
+    margin:10px;
+    background:red;
 }
-.col-1 {
+.col {
     flex-grow: 1;
 }
-.wrapper .row:nth-child(3) > div:nth-child(3) {
-    display: flex;
-    flex-direction: column;
+.left {
+    flex-grow: 3;
 }
-.wrapper .row:nth-child(3) > div:nth-child(3) > div {
-    height:50px;
+.right {
+    flex-grow: 1;
+}
+.bottom {
+    flex-direction: column;
 }
