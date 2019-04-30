@@ -1,0 +1,53 @@
+.wrapper {
+    width:600px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+}
+.green {
+    background:green;
+}
+.red {
+    background:red;
+}
+.lightblue {
+    background:lightblue;
+}
+.col {
+    display: flex;
+    flex-grow:1;
+    flex-direction: column;
+}
+.cell {
+    height:50px;
+}
+.col-1 {
+    flex-grow: 1;
+}
+.col-3 {
+    flex-grow: 3;
+}
+.left {
+    flex-grow: 1;
+}
+.right {
+    flex-grow: 3;
+}
+.top .col div:nth-child(2) {
+    height:150px;
+}
+.bottom .right > div:first-child, .bottom .left {
+    height:100px;
+}
+.bottom .right {
+    display: flex;
+}
+.bottom .right div:first-child {
+    flex-grow:3;
+}
+.bottom .right div:nth-child(2){
+    flex-grow:1;
+}
