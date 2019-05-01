@@ -1,27 +1,28 @@
 .wrapper, .bottom {
-    width:600px;
+    width:800px;
     margin:auto;
     display: flex;
 }
 .row {
     display: flex;
 }
-.green {
-    background:green;
-}
-.red {
-    background:red;
-}
-.lightgreen {
-    background:lightgreen;
-}
 .cell {
-    height:150px;
+    height:180px;
     margin:10px;
     background:red;
 }
-.col {
-    flex-grow: 1;
+.little-col {
+    width:80px;
+    height:80px;
+}
+.col-1 {
+    width:180px;
+}
+.col-2 {
+    width:380px;
+}
+.col-3 {
+    width:580px;
 }
 .left {
     flex-grow: 3;
