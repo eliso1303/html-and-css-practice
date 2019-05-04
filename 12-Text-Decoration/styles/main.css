@@ -99,6 +99,9 @@ header p span:last-child::after {
     margin-right: 6px;
     line-height: 13px;
 }
+.bottom {
+	margin-bottom: 55px;
+}
 .bottom h3 {
     color:#34495E;
     font-size: 30px;
