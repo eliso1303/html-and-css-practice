@@ -1,35 +1,51 @@
-.wrapper, .bottom {
-    width:960px;
+.wrapper {
+    width:600px;
     margin:auto;
     display: flex;
+    flex-direction: column;
+}
+.left, .right, .middle, .top, .bottom {
+    display: flex;
+    flex-grow:1;
 }
 .row {
     display: flex;
-}
-.cell {
-    height:220px;
-    margin:10px;
-    background:red;
-}
-.little-col {
-    width:100px;
-    height:100px;
-}
-.col-1 {
-    width:220px;
-}
-.col-2 {
-    width:460px;
-}
-.col-3 {
-    width:700px;
-}
-.left {
-    flex-grow: 3;
-}
-.right {
     flex-grow: 1;
 }
-.bottom {
+.cell {
+    height:50px;
+    margin:5px;
+    background:red;
+}
+.dir-col {
     flex-direction: column;
+}
+.disp-flex {
+    display: flex;
+}
+
+.col-1 {
+    flex-grow: 1;
+}
+.col-2 {
+    flex-grow: 2;
+}
+.col-3 {
+    flex-grow: 3;
+}
+.diff-height {
+    height:92%;
+}
+.diff-height2 {
+    height:96%;
+}
+.bottom-top {
+    display: flex;
+    flex-direction: column;
+}
+.bottom-right-bottom > div:first-child > div:first-child {
+    height:110px;
+}
+.marg div:first-child {
+    margin-bottom:10px;
 }
